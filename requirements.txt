@@ -176,11 +176,6 @@ onnxruntime==1.17.0
     # via
     #   cnocr
     #   optimum
-opencv-python==4.9.0.80
-    # via
-    #   -r requirements.in
-    #   cnstd
-    #   ultralytics
 opencv-python-headless==4.9.0.80
     # via easyocr
 optimum[onnxruntime]==1.16.2
