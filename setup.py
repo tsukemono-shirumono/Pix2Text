@@ -80,6 +80,3 @@ setup(
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
     ],
 )
-
-from pix2text import Pix2Text
-Pix2Text.from_config()
