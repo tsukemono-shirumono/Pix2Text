@@ -29,7 +29,7 @@ required = [
     "cnocr[ort-cpu]>=2.3.0.2",
     "cnstd>=1.2.4.2",
     "pillow",
-    "torch==2.2.0+cpu",
+    "torch==2.4.0+cpu",
     "torchvision==0.17.0+cpu",
     "transformers>=4.37.0",
     "optimum[onnxruntime]",
