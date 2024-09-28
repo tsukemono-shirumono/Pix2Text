@@ -30,7 +30,7 @@ required = [
     "cnstd>=1.2.4.2",
     "pillow",
     "torch==2.4.0",
-    "torchvision==0.17.0+cpu",
+    "torchvision==0.17.0",
     "transformers>=4.37.0",
     "optimum[onnxruntime]",
     "PyMuPDF",
