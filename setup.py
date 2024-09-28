@@ -29,8 +29,8 @@ required = [
     "cnocr[ort-cpu]>=2.3.0.2",
     "cnstd>=1.2.4.2",
     "pillow",
-    "torch==2.4.0",
-    "torchvision==0.17.0",
+    "torch==2.4.1",
+    "torchvision==0.19.1",
     "transformers>=4.37.0",
     "optimum[onnxruntime]",
     "PyMuPDF",
@@ -80,3 +80,6 @@ setup(
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
     ],
 )
+
+from pix2text import Pix2Text
+Pix2Text.from_config()
