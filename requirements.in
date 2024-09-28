@@ -5,8 +5,8 @@
 click
 tqdm
 numpy
-torch
-torchvision
+torch==2.2.0+cpu
+torchvision==0.17.0+cpu
 pillow>=5.3.0
 opencv-python-headless
 cnstd>=1.2.4.2
